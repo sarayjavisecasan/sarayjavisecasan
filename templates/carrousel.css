@@ -1,0 +1,44 @@
+
+  .titulo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 7em;
+    font-weight: bold;
+    color: #c2130a;
+    z-index: 10;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    align-self: center
+  }
+
+  .carrusel-container {
+    position: relative;
+    width: 100%;
+    height: 65vh; /* antes: 100vh */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .carrusel {
+    display: flex;
+    animation: scroll linear infinite;
+    height: 100%;
+  }
+  
+  .carrusel img {
+    height: 100%;
+    width: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+    display: block;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }

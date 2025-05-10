@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Python HTTP Server",
+            "type": "python",
+            "request": "launch",
+            "program": "c:\\Users\\Jose\\Documents\\bodas\\sarayjavi\\new_server.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

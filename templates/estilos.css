@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'FG Jennifer';
+    src: url('vertopal.com_FGJennifer2.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Florissant';
+    src: url('florissant-handwriting.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Bickham';
+    src: url('Bickham Script Pro Bold.ttf') format('truetype');
+  }
+
+body {
+    margin: 0;
+    font-family: 'FG Jennifer', sans-serif;
+    background-color: #fdf6e3;
+  }
+  
+  .encabezado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fbeec1;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fdf6e3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  nav a.activo {
+    color: #6a4c28;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 140px 0 0;
+    font-size: 1.5rem;
+    min-height: auto;
+    text-align: center;
+  }
+  
+  .arial
+  {
+      font-family:    Arial;
+      font-size:      40px;
+      font-weight:    bold;
+  }
+
+  .pagina {
+    display: none;
+  }
+  
+  .faq {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'FG Jennifer', sans-serif;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #333;
+    font-family: 'FG Jennifer', sans-serif;
+  }
+  
+  .faq-question .flecha {
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-question.activa .flecha {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer.mostrar {
+    display: block;
+  }
+
+  
+  .georgia-font {
+    font-family: 'Georgia', sans-serif;
+}
+
+ 
+.dia {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Florissant', cursive;
+}
+.Florissant{
+  font-family: 'Florissant', cursive;
+}
+.Bickham{
+  font-family: 'Bickham'
+}
+
+.subtitulo{
+  font-size: 1em;
+  font-family: Florissant;
+  font-weight: bold
+}
+
+.bloque-texto{
+  margin: 5% 10% 5% 10%;
+  text-align: start;
+}
+.bloque-texto2{
+  width: 60%;
+  margin: 2% 2% 2% 2%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size:2em;
+  line-height: 1.2;
+}
+
+.imagen-fija{
+  position:absolute;
+  height:auto;
+  max-width: 20%; 
+}
+
+.contenedor-imagen-texto-imagen{
+  width: 100%;
+  padding: 0% 0%; /* Márgenes de 20% a cada lado del contenedor */
+  display: flex;
+    font-family: 'Bickham';
+    box-sizing: border-box;
+}
